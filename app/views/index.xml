@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" > 
+	<Label class="registro">Registro</Label>
+
+	</Window>
+</Alloy>

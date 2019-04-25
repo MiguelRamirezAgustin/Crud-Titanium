@@ -1,0 +1,17 @@
+".container": {
+      layout:'vertical',
+      width: Ti.UI.FILL,
+      height: Ti.UI.FILL,
+	backgroundColor:'white'	
+}
+
+".registro":{
+	color:'#298FB2',
+	top:2,
+	font : {
+	 fontFamily : 'Arial',
+	 fontSize : 20,
+	 fontWeight : 'normal'
+	},
+}
+

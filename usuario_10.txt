@@ -1,0 +1,225 @@
+
+-- Start application log -----------------------------------------------------
+[INFO]  iConfianza/3.1 (7.1.0.df92fbf)
+[INFO]  entra desarrollo
+[INFO]  setupListeners
+[INFO]  inicializando modulo push notification
+[INFO]  ente a init, ios
+[INFO]  inicializando notificaciones en ios
+[INFO]  + + + + + + + + + + + + + + +
+[INFO]  + Informacion del telefono  +
+[INFO]  + + + + + + + + + + + + + + +
+[INFO]  Es telefono: true
+[INFO]  Es tableta: false
+[INFO]  arquitectura: arm64
+[INFO]  sistena operativo: iphone
+[INFO]  modelo: iPhone6,1
+[INFO]  fabricante: apple
+[INFO]  idioma_pais: es-MX
+[INFO]  densidad: high
+[INFO]  dpi: 320
+[INFO]  ancho pantalla: 320
+[INFO]  alto pantalla: 568
+[INFO]  Factor de densidad: 2
+[INFO]  +- - - - - - - - - - - - - - - - - +
+[INFO]  | Platform height === > 568      |
+[INFO]  | Platform width  === > 320      |
+[INFO]  +- - - - - - - - - - - - - - - - - +
+[INFO]  | Width in dip === > 320
+[INFO]  instalando base datos ios
+[WARN]  no se tiene posicion para calcular distancia
+[INFO]  *** Pause Event Called ***
+[INFO]  Reiniciando el tiempo de session
+[INFO]  Parse ObtenerImagenesLogin
+[INFO]  Medidas actuales, ancho: 150, alto:  20, aspect: 0.13333333333333333
+[INFO]  Imagen Cargada : {"state":"image","bubbles":true,"type":"load","source":{"animating":false,"paused":false,"reverse":false,"stopped":true,"autorotate":true,"duration":200,"horizontalWrap":true,"visible":true,"touchEnabled":true,"width":"150dip","height":"20dip","id":"logoAce","top":60,"image":"http://www.fianzanet.com.mx/archivosfm/logos/mobile/logo_chubb_blanco.png"},"cancelBubble":false}
+[INFO]  Imagen Cargada : {"state":"image","bubbles":true,"type":"load","source":{"animating":false,"paused":false,"reverse":false,"stopped":true,"autorotate":true,"duration":200,"horizontalWrap":true,"visible":true,"touchEnabled":true,"width":"100dip","height":"20dip","id":"logoIConfianza","bottom":"70dip","image":"http://www.fianzanet.com.mx/archivosfm/logos/mobile/ico_confianza_ES.png"},"cancelBubble":false}
+[INFO]  *** RESUME Event Called ***
+[INFO]  {"launchOptionsLocationKey":false}
+[INFO]  <null>
+[INFO]  exito al obtener token notificaciones : a2f3513db7337ee0695e989b1ccf47a85fe34be8b68c1369bdf8f6e3e808f4f5
+[INFO]  guardando token para notificaciones: a2f3513db7337ee0695e989b1ccf47a85fe34be8b68c1369bdf8f6e3e808f4f5
+[INFO]  Suscribiendo a canal de notificaciones : confianza_notificaciones, con token : a2f3513db7337ee0695e989b1ccf47a85fe34be8b68c1369bdf8f6e3e808f4f5
+[INFO]  Se suscribio correctamente a arrow cloud : {"success":true,"error":false,"meta":{"status":"ok","code":200,"method_name":"SubscribeNotificationByToken"}}
+[INFO]  ACANAL:H8O7DQJQC
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetLogeoResponse xmlns="http://tempuri.org/"><GetLogeoResult xmlns:a="http://schemas.datacontract.org/2004/07/wcfEntity" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Acceso_Confianza><a:ADMIN/><a:BOTONES i:nil="true"/><a:INTENTOS_FALLIDOS>0</a:INTENTOS_FALLIDOS><a:NUM_ID_MONITOR i:nil="true"/><a:NUM_INTERNO_AGENTE/><a:P_AP_MODULO/><a:P_CAMBIO_OFICINAS_EMP_EMI/><a:P_CAMBIO_PWS>false</a:P_CAMBIO_PWS><a:P_CODIGO_RETORNO>101</a:P_CODIGO_RETORNO><a:P_DESC_ESTRUCTURA/><a:P_DIAS_VENCIMIENTO i:nil="true"/><a:P_EMP_ENDOSOS/><a:P_ENVIA_PWS>true</a:P_ENVIA_PWS><a:P_ESTRUCTURA/><a:P_FECHA_VENCIMIENTO>2019-02-18T16:39:07.1029391-06:00</a:P_FECHA_VENCIMIENTO><a:P_IDIOMA/><a:P_LIST_OFNA/><a:P_MAIL_AGENTE>dba_monitor_pruebas@chubb.com</a:P_MAIL_AGENTE><a:P_MSG>Usuario / password inválidos, Acceso denegado.</a:P_MSG><a:P_NIVEL>0</a:P_NIVEL><a:P_NIVEL_MONITOR i:nil="true"/><a:P_NOMBRE/><a:P_NO_EMP_EMI>0</a:P_NO_EMP_EMI><a:P_ORACLE_PWS/><a:P_ORACLE_USER/><a:P_PWS_MONITOR i:nil="true"/><a:P_TIPO>EMP</a:P_TIPO><a:P_TIPO_EMISOR>A</a:P_TIPO_EMISOR><a:P_TIPO_MONITOR i:nil="true"/><a:P_TOKEN_ID>SYMC53226652</a:P_TOKEN_ID><a:P_USER_MONITOR i:nil="true"/><a:P_USUARIO_CON_PENDIENTES><a:Mensaje/><a:TienePendientes>false</a:TienePendientes></a:P_USUARIO_CON_PENDIENTES><a:ROL/></a:Acceso_Confianza><a:Acceso_Fianzanet i:nil="true"/><a:Acceso_IKE i:nil="true"/><a:Acceso_Intranet i:nil="true"/></GetLogeoResult></GetLogeoResponse></s:Body></s:Envelope>
+[INFO]  Primer Servicio ------------------> Auth
+[INFO]  Usuario / password inválidos, Acceso denegado.
+[INFO]  101
+[INFO]  RespuestaLogin------------{"CodigoRetorno":"101","Mensaje":"Usuario / password inválidos, Acceso denegado."}
+[INFO]  ACANAL:H807DQJZQC
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetLogeoResponse xmlns="http://tempuri.org/"><GetLogeoResult xmlns:a="http://schemas.datacontract.org/2004/07/wcfEntity" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Acceso_Confianza><a:ADMIN/><a:BOTONES i:nil="true"/><a:INTENTOS_FALLIDOS>0</a:INTENTOS_FALLIDOS><a:NUM_ID_MONITOR i:nil="true"/><a:NUM_INTERNO_AGENTE/><a:P_AP_MODULO/><a:P_CAMBIO_OFICINAS_EMP_EMI/><a:P_CAMBIO_PWS>false</a:P_CAMBIO_PWS><a:P_CODIGO_RETORNO>101</a:P_CODIGO_RETORNO><a:P_DESC_ESTRUCTURA/><a:P_DIAS_VENCIMIENTO i:nil="true"/><a:P_EMP_ENDOSOS/><a:P_ENVIA_PWS>true</a:P_ENVIA_PWS><a:P_ESTRUCTURA/><a:P_FECHA_VENCIMIENTO>2019-02-18T16:39:58.4279261-06:00</a:P_FECHA_VENCIMIENTO><a:P_IDIOMA/><a:P_LIST_OFNA/><a:P_MAIL_AGENTE>dba_monitor_pruebas@chubb.com</a:P_MAIL_AGENTE><a:P_MSG>Usuario / password inválidos, Acceso denegado.</a:P_MSG><a:P_NIVEL>0</a:P_NIVEL><a:P_NIVEL_MONITOR i:nil="true"/><a:P_NOMBRE/><a:P_NO_EMP_EMI>0</a:P_NO_EMP_EMI><a:P_ORACLE_PWS/><a:P_ORACLE_USER/><a:P_PWS_MONITOR i:nil="true"/><a:P_TIPO>EMP</a:P_TIPO><a:P_TIPO_EMISOR>A</a:P_TIPO_EMISOR><a:P_TIPO_MONITOR i:nil="true"/><a:P_TOKEN_ID>SYMC53226652</a:P_TOKEN_ID><a:P_USER_MONITOR i:nil="true"/><a:P_USUARIO_CON_PENDIENTES><a:Mensaje/><a:TienePendientes>false</a:TienePendientes></a:P_USUARIO_CON_PENDIENTES><a:ROL/></a:Acceso_Confianza><a:Acceso_Fianzanet i:nil="true"/><a:Acceso_IKE i:nil="true"/><a:Acceso_Intranet i:nil="true"/></GetLogeoResult></GetLogeoResponse></s:Body></s:Envelope>
+[INFO]  Primer Servicio ------------------> Auth
+[INFO]  Usuario / password inválidos, Acceso denegado.
+[INFO]  101
+[INFO]  RespuestaLogin------------{"CodigoRetorno":"101","Mensaje":"Usuario / password inválidos, Acceso denegado."}
+[INFO]  DRJENEZ:H807DQJZQC
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetLogeoResponse xmlns="http://tempuri.org/"><GetLogeoResult xmlns:a="http://schemas.datacontract.org/2004/07/wcfEntity" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Acceso_Confianza><a:ADMIN/><a:BOTONES i:nil="true"/><a:INTENTOS_FALLIDOS>0</a:INTENTOS_FALLIDOS><a:NUM_ID_MONITOR i:nil="true"/><a:NUM_INTERNO_AGENTE/><a:P_AP_MODULO/><a:P_CAMBIO_OFICINAS_EMP_EMI/><a:P_CAMBIO_PWS>false</a:P_CAMBIO_PWS><a:P_CODIGO_RETORNO>02</a:P_CODIGO_RETORNO><a:P_DESC_ESTRUCTURA/><a:P_DIAS_VENCIMIENTO i:nil="true"/><a:P_EMP_ENDOSOS/><a:P_ENVIA_PWS>false</a:P_ENVIA_PWS><a:P_ESTRUCTURA/><a:P_FECHA_VENCIMIENTO>2019-02-18T16:41:07.3968524-06:00</a:P_FECHA_VENCIMIENTO><a:P_IDIOMA/><a:P_LIST_OFNA/><a:P_MAIL_AGENTE/><a:P_MSG>Usuario / password inválidos, Acceso denegado.</a:P_MSG><a:P_NIVEL>0</a:P_NIVEL><a:P_NIVEL_MONITOR i:nil="true"/><a:P_NOMBRE/><a:P_NO_EMP_EMI>0</a:P_NO_EMP_EMI><a:P_ORACLE_PWS/><a:P_ORACLE_USER/><a:P_PWS_MONITOR i:nil="true"/><a:P_TIPO/><a:P_TIPO_EMISOR>A</a:P_TIPO_EMISOR><a:P_TIPO_MONITOR i:nil="true"/><a:P_TOKEN_ID i:nil="true"/><a:P_USER_MONITOR i:nil="true"/><a:P_USUARIO_CON_PENDIENTES><a:Mensaje/><a:TienePendientes>false</a:TienePendientes></a:P_USUARIO_CON_PENDIENTES><a:ROL/></a:Acceso_Confianza><a:Acceso_Fianzanet i:nil="true"/><a:Acceso_IKE i:nil="true"/><a:Acceso_Intranet i:nil="true"/></GetLogeoResult></GetLogeoResponse></s:Body></s:Envelope>
+[INFO]  Primer Servicio ------------------> Auth
+[INFO]  Usuario / password inválidos, Acceso denegado.
+[INFO]  02
+[INFO]  RespuestaLogin------------{"CodigoRetorno":"02","Mensaje":"Usuario / password inválidos, Acceso denegado."}
+[INFO]  DRJIMENEZ:H807DQJZQC
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetLogeoResponse xmlns="http://tempuri.org/"><GetLogeoResult xmlns:a="http://schemas.datacontract.org/2004/07/wcfEntity" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Acceso_Confianza><a:ADMIN/><a:BOTONES i:nil="true"/><a:INTENTOS_FALLIDOS>0</a:INTENTOS_FALLIDOS><a:NUM_ID_MONITOR i:nil="true"/><a:NUM_INTERNO_AGENTE/><a:P_AP_MODULO/><a:P_CAMBIO_OFICINAS_EMP_EMI/><a:P_CAMBIO_PWS>false</a:P_CAMBIO_PWS><a:P_CODIGO_RETORNO>01</a:P_CODIGO_RETORNO><a:P_DESC_ESTRUCTURA/><a:P_DIAS_VENCIMIENTO>-945</a:P_DIAS_VENCIMIENTO><a:P_EMP_ENDOSOS/><a:P_ENVIA_PWS>false</a:P_ENVIA_PWS><a:P_ESTRUCTURA/><a:P_FECHA_VENCIMIENTO>2016-07-18T20:00:06</a:P_FECHA_VENCIMIENTO><a:P_IDIOMA/><a:P_LIST_OFNA/><a:P_MAIL_AGENTE/><a:P_MSG>Cuenta Bloqueda y Expirada, Acuda con el Área de Soporte de su Zona</a:P_MSG><a:P_NIVEL>0</a:P_NIVEL><a:P_NIVEL_MONITOR i:nil="true"/><a:P_NOMBRE/><a:P_NO_EMP_EMI>0</a:P_NO_EMP_EMI><a:P_ORACLE_PWS/><a:P_ORACLE_USER/><a:P_PWS_MONITOR i:nil="true"/><a:P_TIPO>EMP</a:P_TIPO><a:P_TIPO_EMISOR>A</a:P_TIPO_EMISOR><a:P_TIPO_MONITOR i:nil="true"/><a:P_TOKEN_ID>VSHM11783853;VSMT29261742;VSST23691349;VSST47363271</a:P_TOKEN_ID><a:P_USER_MONITOR i:nil="true"/><a:P_USUARIO_CON_PENDIENTES><a:Mensaje/><a:TienePendientes>false</a:TienePendientes></a:P_USUARIO_CON_PENDIENTES><a:ROL/></a:Acceso_Confianza><a:Acceso_Fianzanet i:nil="true"/><a:Acceso_IKE i:nil="true"/><a:Acceso_Intranet i:nil="true"/></GetLogeoResult></GetLogeoResponse></s:Body></s:Envelope>
+[INFO]  Primer Servicio ------------------> Auth
+[INFO]  Cuenta Bloqueda y Expirada, Acuda con el Área de Soporte de su Zona
+[INFO]  01
+[INFO]  RespuestaLogin------------{"CodigoRetorno":"01","Mensaje":"Cuenta Bloqueda y Expirada, Acuda con el Área de Soporte de su Zona"}
+[INFO]  ACANAL:H8O7DQJZQC
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetLogeoResponse xmlns="http://tempuri.org/"><GetLogeoResult xmlns:a="http://schemas.datacontract.org/2004/07/wcfEntity" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Acceso_Confianza><a:ADMIN>S</a:ADMIN><a:BOTONES><a:Urls><a:ID_BOTON>1</a:ID_BOTON><a:NumModulo>2</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>Emision.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=32</a:URL></a:Urls><a:Urls><a:ID_BOTON>2</a:ID_BOTON><a:NumModulo>3</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>Facturacion.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=33</a:URL></a:Urls><a:Urls><a:ID_BOTON>3</a:ID_BOTON><a:NumModulo>4</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>ImpresionEnLote.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=34</a:URL></a:Urls><a:Urls><a:ID_BOTON>4</a:ID_BOTON><a:NumModulo>5</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>Comisiones.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=35</a:URL></a:Urls><a:Urls><a:ID_BOTON>5</a:ID_BOTON><a:NumModulo>6</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>AU_PantallaPrincipal.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=36</a:URL></a:Urls><a:Urls><a:ID_BOTON>6</a:ID_BOTON><a:NumModulo>7</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>AU_Firmar.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=37</a:URL></a:Urls><a:Urls><a:ID_BOTON>7</a:ID_BOTON><a:NumModulo>8</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>GotoAssist/default.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=38</a:URL></a:Urls><a:Urls><a:ID_BOTON>8</a:ID_BOTON><a:NumModulo>9</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=41646D696E697374726163696F6E&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=39</a:URL></a:Urls><a:Urls><a:ID_BOTON>9</a:ID_BOTON><a:NumModulo>10</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>LineaExpres.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3130</a:URL></a:Urls><a:Urls><a:ID_BOTON>10</a:ID_BOTON><a:NumModulo>11</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=5265706F72746573&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3131</a:URL></a:Urls><a:Urls><a:ID_BOTON>11</a:ID_BOTON><a:NumModulo>12</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=4C6F63616C697A61646F72&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3132</a:URL></a:Urls><a:Urls><a:ID_BOTON>12</a:ID_BOTON><a:NumModulo>13</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=48657272616D69656E746173&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3133</a:URL></a:Urls></a:BOTONES><a:INTENTOS_FALLIDOS>0</a:INTENTOS_FALLIDOS><a:NUM_ID_MONITOR>0</a:NUM_ID_MONITOR><a:NUM_INTERNO_AGENTE/><a:P_AP_MODULO>NA</a:P_AP_MODULO><a:P_CAMBIO_OFICINAS_EMP_EMI/><a:P_CAMBIO_PWS>false</a:P_CAMBIO_PWS><a:P_CODIGO_RETORNO>00</a:P_CODIGO_RETORNO><a:P_DESC_ESTRUCTURA>BOGOTA</a:P_DESC_ESTRUCTURA><a:P_DIAS_VENCIMIENTO>60</a:P_DIAS_VENCIMIENTO><a:P_EMP_ENDOSOS>N</a:P_EMP_ENDOSOS><a:P_ENVIA_PWS>false</a:P_ENVIA_PWS><a:P_ESTRUCTURA>01304</a:P_ESTRUCTURA><a:P_FECHA_VENCIMIENTO>2019-04-19T06:09:33</a:P_FECHA_VENCIMIENTO><a:P_IDIOMA>es-CO</a:P_IDIOMA><a:P_LIST_OFNA>01304</a:P_LIST_OFNA><a:P_MAIL_AGENTE/><a:P_MSG/><a:P_NIVEL>5</a:P_NIVEL><a:P_NIVEL_MONITOR/><a:P_NOMBRE>CANAL CONDE ANDRES</a:P_NOMBRE><a:P_NO_EMP_EMI>1080336</a:P_NO_EMP_EMI><a:P_ORACLE_PWS>H8O7DQJZQC</a:P_ORACLE_PWS><a:P_ORACLE_USER>ACANAL</a:P_ORACLE_USER><a:P_PWS_MONITOR/><a:P_TIPO>EMP</a:P_TIPO><a:P_TIPO_EMISOR>A</
+[INFO]  a:P_TIPO_EMISOR><a:P_TIPO_MONITOR/><a:P_TOKEN_ID>SYMC53226652</a:P_TOKEN_ID><a:P_USER_MONITOR/><a:P_USUARIO_CON_PENDIENTES><a:Mensaje/><a:TienePendientes>false</a:TienePendientes></a:P_USUARIO_CON_PENDIENTES><a:ROL>H8O7DQJZQC</a:ROL></a:Acceso_Confianza><a:Acceso_Fianzanet i:nil="true"/><a:Acceso_IKE i:nil="true"/><a:Acceso_Intranet i:nil="true"/></GetLogeoResult></GetLogeoResponse></s:Body></s:Envelope>
+[INFO]  Primer Servicio ------------------> Auth
+[INFO]  Data: {"CodigoRetorno":"00","Mensaje":"","OracleUser":"ACANAL","OraclePws":"H8O7DQJZQC","Tipo":"EMP","Estructura":"01304","NoEmpEmi":"1080336","CambioPws":"false","UserMonitor":"","PwsMonitor":"","DescEstructura":"BOGOTA","Nombre":"CANAL CONDE ANDRES","usuarioInicial":"ACANAL","passInicial":"H8O7DQJZQC"}
+[INFO]  Llamando a GetPermosoTarifa
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><Get_Permisos_TarifaResponse xmlns="http://tempuri.org/"><Get_Permisos_TarifaResult>false</Get_Permisos_TarifaResult></Get_Permisos_TarifaResponse></s:Body></s:Envelope>
+[INFO]  GetPermisosTarifa ------------------>
+[INFO]  GetPermisosTarifa :: false
+[INFO]  Llamando a servicio JSON TienePermisosExcepcionBuro
+[INFO]  Error en TienePermisosExcepcionBuro :: HTTP error
+[INFO]  TienePermisosExcepcionBuro ------------------>
+[ERROR] ERROR from TienePermisosExcepcionBuro: HTTP error
+[INFO]  Response TienePermisosExcepcionBuro :: false
+[INFO]  <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><TienePermisosExcepcion112Response xmlns="http://tempuri.org/"><TienePermisosExcepcion112Result>false</TienePermisosExcepcion112Result></TienePermisosExcepcion112Response></soap:Body></soap:Envelope>
+[INFO]  parseTienePermisosExcepcion112  ------------------>
+[INFO]  Response parseTienePermisosExcepcion112 ------------undefined
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ObtenerTiempoSessionMobileAppResponse xmlns="http://tempuri.org/"><ObtenerTiempoSessionMobileAppResult>10</ObtenerTiempoSessionMobileAppResult></ObtenerTiempoSessionMobileAppResponse></s:Body></s:Envelope>
+[INFO]  parseObtenerTiempoDeSesionMobileApp ------------------>
+[INFO]  Response parseObtenerTiempoDeSesionMobileApp ------------10
+[INFO]  Llamando a servicio JSON TienePermisosAutorizacionesF4
+[INFO]  TienePermisosAutorizacionesF4 ::: {"TienePermisoAutorizacionesF4Result":false}
+[INFO]  TienePermisoAutorizacionesF4 ------------------>
+[INFO]  ReturnData TienePermisoAutorizacionesF4 ------------false
+[INFO]  Llamando a GetPermisos soap
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ObtenerPermisosResponse xmlns="http://tempuri.org/"><puedeLeer>false</puedeLeer><puedeEscribir>false</puedeEscribir><puedeBorrar>false</puedeBorrar><puedeAuditar>false</puedeAuditar><msg/></ObtenerPermisosResponse></s:Body></s:Envelope>
+[INFO]  ObtenerPermisos Solvencia Mobile ------------------>
+[INFO]  Response ObtenerPermisos ------------false
+[INFO]  Permisos de Expediente Electronico {"puedeLeer":false,"puedeEscribir":false,"puedeBorrar":false,"puedeAuditar":false}
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ObtenerPermisosResponse xmlns="http://tempuri.org/"><puedeLeer>false</puedeLeer><puedeEscribir>false</puedeEscribir><puedeBorrar>false</puedeBorrar><puedeAuditar>false</puedeAuditar><msg/></ObtenerPermisosResponse></s:Body></s:Envelope>
+[INFO]  ObtenerPermisos Doc Fuente ------------------>
+[INFO]  Response ObtenerPermisos Doc Fuente ------------false
+[INFO]  Permisos de Documento Fuente {"puedeLeer":false,"puedeEscribir":false,"puedeBorrar":false,"puedeAuditar":false}
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ObtenerUrliConfianzaResponse xmlns="http://tempuri.org/"><ObtenerUrliConfianzaResult>https://www.iconfianza.com.mx:8443/iConfianzaPrincipal.aspx</ObtenerUrliConfianzaResult></ObtenerUrliConfianzaResponse></s:Body></s:Envelope>
+[INFO]  ObtenerUrliConfianza ------------------>
+[INFO]  ReturnData ObtenerUrliConfianza ObtenerUrliConfianzaResult ------------https://www.iconfianza.com.mx:8443/iConfianzaPrincipal.aspx
+[INFO]  Llamando a servicio soap obtenerTokenConfianza
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ObtenerTokenAccesoiConfianzaResponse xmlns="http://tempuri.org/"><ObtenerTokenAccesoiConfianzaResult>W6WYZVT1=W6V584E2EZZ~VD5I~8PFQKAVYXW0SWZ~Y3X1~</ObtenerTokenAccesoiConfianzaResult><msg/></ObtenerTokenAccesoiConfianzaResponse></s:Body></s:Envelope>
+[INFO]  RespuestaLogin------------{"CodigoRetorno":"00","Mensaje":"","OracleUser":"ACANAL","OraclePws":"H8O7DQJZQC","Tipo":"EMP","Estructura":"01304","NoEmpEmi":"1080336","CambioPws":"false","UserMonitor":"","PwsMonitor":"","DescEstructura":"BOGOTA","Nombre":"CANAL CONDE ANDRES","usuarioInicial":"ACANAL","passInicial":"H8O7DQJZQC","PermisosTarifa":"false","TienePermisosExcepcionBuro":false,"TienePermisosExcepcion112":false,"ObtenerTiempoSessionMobileAppResult":"10","TienePermisoAutorizacionesF4Result":false,"permisosEE":{"puedeLeer":false,"puedeEscribir":false,"puedeBorrar":false,"puedeAuditar":false},"permisosDF":{"puedeLeer":false,"puedeEscribir":false,"puedeBorrar":false,"puedeAuditar":false},"ObtenerUrliConfianzaResult":"https://www.iconfianza.com.mx:8443/iConfianzaPrincipal.aspx","mensajeUrl":"","urlCompleta":"https://www.iconfianza.com.mx:8443/iConfianzaPrincipal.aspx?W6WYZVT1=W6V584E2EZZ~VD5I~8PFQKAVYXW0SWZ~Y3X1~"}
+[INFO]  Llamando a servicio JSON personalizacionObtenerEtiquetas
+[INFO]  este es el auth Basic QUNBTkFMOkg4TzdEUUpaUUM=
+[INFO]  recuperando token para notificaciones
+[INFO]  {
+[INFO]      "pToken": "a2f3513db7337ee0695e989b1ccf47a85fe34be8b68c1369bdf8f6e3e808f4f5",
+[INFO]      "pTipo": "ios",
+[INFO]      "pUsuario": 0,
+[INFO]      "pEmpleado": "1080336",
+[INFO]      "pOracleUser": "ACANAL"
+[INFO]  }
+[INFO]  pre request
+[INFO]  request send
+[INFO]  Error en personalizacionObtenerEtiquetas :: HTTP error
+[INFO]  En telefonos la vista debe ser portrait
+[WARN]  No se encontró el valor de la llave: Menu_Logo_pais
+[WARN]  No se encontró el valor de la llave: menuTelefono_autorizaciones
+[WARN]  No se encontró el valor de la llave: menuTelefono_desbloqueos
+[WARN]  No se encontró el valor de la llave: menuTelefono_consultas
+[WARN]  No se encontró el valor de la llave: menuTelefono_radiografia
+[WARN]  No se encontró el valor de la llave: menuTelefono_expediente
+[WARN]  No se encontró el valor de la llave: menuTelefono_cotizador
+[WARN]  No se encontró el valor de la llave: menuTelefono_monitor
+[WARN]  No se encontró el valor de la llave: menuTelefono_valida
+[WARN]  No se encontró el valor de la llave: menuTelefono_expres
+[WARN]  No se encontró el valor de la llave: menuTelefono_custom
+[INFO]  Llamando a servicio JSON personalizacionObtenerColores
+[INFO]  Error en personalizacionObtenerColores :: HTTP error
+[INFO]  orden botones[{"Id":"autorizaciones","Color":"#01C0D6"},{"Id":"desbloqueos","Color":"#6E2796"},{"Id":"consultas","Color":"#01C0D6"},{"Id":"radiografia","Color":"#6E2796"},{"Id":"cotizador","Color":"#01C0D6"},{"Id":"monitor","Color":"#6E2796"},{"Id":"valida","Color":"#01C0D6"},{"Id":"expres","Color":"#6E2796"},{"Id":"expediente","Color":"#6E2796"},{"Id":"custom","Color":"#6E2796"}]
+[INFO]  botones{"autorizaciones":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"desbloqueos":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"consultas":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"radiografia":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"expediente":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"cotizador":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"monitor":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"valida":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"expres":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"},"custom":{"horizontalWrap":true,"visible":true,"touchEnabled":true,"layout":"vertical"}}
+[WARN]  Could not retrieve template for SIZE measurement
+[WARN]  Could not retrieve template for SIZE measurement
+[WARN]  Could not retrieve template for SIZE measurement
+[WARN]  Could not retrieve template for SIZE measurement
+[WARN]  Could not retrieve template for SIZE measurement
+[WARN]  Could not retrieve template for SIZE measurement
+[INFO]  Tipo persona"EMP"
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorSaldoPXC
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorSaldo30
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorSaldo60
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorSaldoMas
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorVentaDia
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorVentaMes
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorMesPresupuesto
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorMesAvance
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorMesAnioAnt
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorVentaAnio
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorAnioPresupuesto
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorAnioAvance
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorAnioAnterior
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOperaciones
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorPropuestas
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsOperacion
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsMonto
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsPrima
+[WARN]  No se encontró el valor de la llave: monitor_Button_btnOperacionesCerrar
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsDetOperacion
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsDetFiado
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsDetBeneficiario
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsDetMonto
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsDetOficina
+[WARN]  No se encontró el valor de la llave: monitor_Label_lblMonitorOpsDetAgente
+[WARN]  No se encontró el valor de la llave: monitor_Button_btnDetalleCerrar
+[INFO]  on show view monitor, llamando a resumen
+[INFO]  Llamando a serviciio JSON MonitorObtenerPXC
+[INFO]  Iniciando login en background
+[INFO]  Tipo persona"EMP"
+[INFO]  MonitorObtenerPXC ::: {"ObtenerPXCResult":null}
+[INFO]  datos para envio : {"resumen":{"ventaDia":0,"ventaMes":0,"ventaAnio":0,"saldoPXC":0},"ventaMes":{"presupuesto":0,"real":0,"anterior":0,"avance":0},"ventaAnio":{"presupuesto":0,"real":0,"anterior":0,"avance":0},"saldoPXC":{"unoATreinta":0,"treintaASesenta":0,"masDeSesenta":0,"saldoPXC":0},"convenciones":{"avancePlata":0,"avanceOro":0,"avancePlatino":0},"masterRewards":{"puntosTotales":0,"puntosPorVencer":0},"user":{"tipoEmpleado":"EMP","login":"true","oracleUser":"ACANAL","oraclePass":"H8O7DQJZQC","numeroEmpleado":"1080336"}}
+[INFO]  No esta instalado o no esta asociado
+[INFO]  Llamando a servicio SOAP monitorObtenerResumen
+[INFO]  <?xml version="1.0" encoding="utf-8"?>
+[INFO]  <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+[INFO]  <soap:Body>
+[INFO]  <ObtenerResumen xmlns="http://gadget.fianzasmonterrey.com.mx/wcf/">
+[INFO]  <strUsuario>ACANAL</strUsuario>
+[INFO]  <strPassword>H8O7DQJZQC</strPassword>
+[INFO]  </ObtenerResumen>
+[INFO]  </soap:Body>
+[INFO]  </soap:Envelope>
+[INFO]  Error en registraTokenPorUsuario :: HTTP error
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><GetLogeoResponse xmlns="http://tempuri.org/"><GetLogeoResult xmlns:a="http://schemas.datacontract.org/2004/07/wcfEntity" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:Acceso_Confianza><a:ADMIN>S</a:ADMIN><a:BOTONES><a:Urls><a:ID_BOTON>1</a:ID_BOTON><a:NumModulo>2</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>Emision.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=32</a:URL></a:Urls><a:Urls><a:ID_BOTON>2</a:ID_BOTON><a:NumModulo>3</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>Facturacion.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=33</a:URL></a:Urls><a:Urls><a:ID_BOTON>3</a:ID_BOTON><a:NumModulo>4</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>ImpresionEnLote.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=34</a:URL></a:Urls><a:Urls><a:ID_BOTON>4</a:ID_BOTON><a:NumModulo>5</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>Comisiones.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=35</a:URL></a:Urls><a:Urls><a:ID_BOTON>5</a:ID_BOTON><a:NumModulo>6</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>AU_PantallaPrincipal.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=36</a:URL></a:Urls><a:Urls><a:ID_BOTON>6</a:ID_BOTON><a:NumModulo>7</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>AU_Firmar.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=37</a:URL></a:Urls><a:Urls><a:ID_BOTON>7</a:ID_BOTON><a:NumModulo>8</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>GotoAssist/default.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=38</a:URL></a:Urls><a:Urls><a:ID_BOTON>8</a:ID_BOTON><a:NumModulo>9</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=41646D696E697374726163696F6E&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=39</a:URL></a:Urls><a:Urls><a:ID_BOTON>9</a:ID_BOTON><a:NumModulo>10</a:NumModulo><a:TienesSubmenu>false</a:TienesSubmenu><a:URL>LineaExpres.aspx?55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3130</a:URL></a:Urls><a:Urls><a:ID_BOTON>10</a:ID_BOTON><a:NumModulo>11</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=5265706F72746573&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3131</a:URL></a:Urls><a:Urls><a:ID_BOTON>11</a:ID_BOTON><a:NumModulo>12</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=4C6F63616C697A61646F72&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3132</a:URL></a:Urls><a:Urls><a:ID_BOTON>12</a:ID_BOTON><a:NumModulo>13</a:NumModulo><a:TienesSubmenu>true</a:TienesSubmenu><a:URL>MenuMultiple.aspx?6F7063696F6E=48657272616D69656E746173&amp;55736572=4143414E414C&amp;507773=48384F3744514A5A5143&amp;4E756D4D6F64756C6F=3133</a:URL></a:Urls></a:BOTONES><a:INTENTOS_FALLIDOS>0</a:INTENTOS_FALLIDOS><a:NUM_ID_MONITOR>0</a:NUM_ID_MONITOR><a:NUM_INTERNO_AGENTE/><a:P_AP_MODULO>NA</a:P_AP_MODULO><a:P_CAMBIO_OFICINAS_EMP_EMI/><a:P_CAMBIO_PWS>false</a:P_CAMBIO_PWS><a:P_CODIGO_RETORNO>00</a:P_CODIGO_RETORNO><a:P_DESC_ESTRUCTURA>BOGOTA</a:P_DESC_ESTRUCTURA><a:P_DIAS_VENCIMIENTO>60</a:P_DIAS_VENCIMIENTO><a:P_EMP_ENDOSOS>N</a:P_EMP_ENDOSOS><a:P_ENVIA_PWS>false</a:P_ENVIA_PWS><a:P_ESTRUCTURA>01304</a:P_ESTRUCTURA><a:P_FECHA_VENCIMIENTO>2019-04-19T06:09:33</a:P_FECHA_VENCIMIENTO><a:P_IDIOMA>es-CO</a:P_IDIOMA><a:P_LIST_OFNA>01304</a:P_LIST_OFNA><a:P_MAIL_AGENTE/><a:P_MSG/><a:P_NIVEL>5</a:P_NIVEL><a:P_NIVEL_MONITOR/><a:P_NOMBRE>CANAL CONDE ANDRES</a:P_NOMBRE><a:P_NO_EMP_EMI>1080336</a:P_NO_EMP_EMI><a:P_ORACLE_PWS>H8O7DQJZQC</a:P_ORACLE_PWS><a:P_ORACLE_USER>ACANAL</a:P_ORACLE_USER><a:P_PWS_MONITOR/><a:P_TIPO>EMP</a:P_TIPO><a:P_TIPO_EMISOR>A</
+[INFO]  a:P_TIPO_EMISOR><a:P_TIPO_MONITOR/><a:P_TOKEN_ID>SYMC53226652</a:P_TOKEN_ID><a:P_USER_MONITOR/><a:P_USUARIO_CON_PENDIENTES><a:Mensaje/><a:TienePendientes>false</a:TienePendientes></a:P_USUARIO_CON_PENDIENTES><a:ROL>H8O7DQJZQC</a:ROL></a:Acceso_Confianza><a:Acceso_Fianzanet i:nil="true"/><a:Acceso_IKE i:nil="true"/><a:Acceso_Intranet i:nil="true"/></GetLogeoResult></GetLogeoResponse></s:Body></s:Envelope>
+[INFO]  Primer Servicio ------------------> Auth
+[INFO]  Data: {"CodigoRetorno":"00","Mensaje":"","OracleUser":"ACANAL","OraclePws":"H8O7DQJZQC","Tipo":"EMP","Estructura":"01304","NoEmpEmi":"1080336","CambioPws":"false","UserMonitor":"","PwsMonitor":"","DescEstructura":"BOGOTA","Nombre":"CANAL CONDE ANDRES","usuarioInicial":"ACANAL","passInicial":"H8O7DQJZQC"}
+[INFO]  RespuestaLogin------------{"CodigoRetorno":"00","Mensaje":"","OracleUser":"ACANAL","OraclePws":"H8O7DQJZQC","Tipo":"EMP","Estructura":"01304","NoEmpEmi":"1080336","CambioPws":"false","UserMonitor":"","PwsMonitor":"","DescEstructura":"BOGOTA","Nombre":"CANAL CONDE ANDRES","usuarioInicial":"ACANAL","passInicial":"H8O7DQJZQC"}
+[INFO]  Tipo persona"EMP"
+[INFO]  No esta instalado o no esta asociado
+[INFO]  <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode xmlns:a="http://schemas.microsoft.com/net/2005/12/windowscommunicationfoundation/dispatcher">a:InternalServiceFault</faultcode><faultstring xml:lang="es-MX">Input string was not in a correct format.</faultstring><detail><ExceptionDetail xmlns="http://schemas.datacontract.org/2004/07/System.ServiceModel" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><HelpLink i:nil="true"/><InnerException i:nil="true"/><Message>Input string was not in a correct format.</Message><StackTrace>   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)&#xD;
+[INFO]     at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)&#xD;
+[INFO]     at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)&#xD;
+[INFO]     at System.Double.Parse(String s)&#xD;
+[INFO]     at GadgetFM_Datos.GadgetFM.VentaPresupuesto(String StrAgente, String StrOficina, String StrTipoUsuario)&#xD;
+[INFO]     at GadgetFM_Negocio.GadgetFM.VentaPresupuesto(String StrAgente, String StrOficina, String StrTipoUsuario)&#xD;
+[INFO]     at wcfGadgetFM.GadgetFM.ObtenerResumen(String strUsuario, String strPassword)&#xD;
+[INFO]     at SyncInvokeObtenerResumen(Object , Object[] , Object[] )&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]&amp; outputs)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc&amp; rpc)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc&amp; rpc)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc&amp; rpc)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc&amp; rpc)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc&amp; rpc)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc&amp; rpc)&#xD;
+[INFO]     at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)</StackTrace><Type>System.FormatException</Type></ExceptionDetail></detail></s:Fault></s:Body></s:Envelope>
+[INFO]  Parse MonitorObtenerResumen
+[INFO]  RESUMEN: {}
+[INFO]  datos para envio : {"resumen":{"ventaDia":0,"ventaMes":0,"ventaAnio":0,"saldoPXC":0},"ventaMes":{"presupuesto":0,"real":0,"anterior":0,"avance":0},"ventaAnio":{"presupuesto":0,"real":0,"anterior":0,"avance":0},"saldoPXC":{"unoATreinta":0,"treintaASesenta":0,"masDeSesenta":0,"saldoPXC":0},"convenciones":{"avancePlata":0,"avanceOro":0,"avancePlatino":0},"masterRewards":{"puntosTotales":0,"puntosPorVencer":0},"user":{"tipoEmpleado":"EMP","login":"true","oracleUser":"ACANAL","oraclePass":"H8O7DQJZQC","numeroEmpleado":"1080336"}}
+[INFO]  No esta instalado o no esta asociado
+[INFO]  Llamando a servicio JSON MonitorObtenerPrimasGeneradas
+[INFO]  MonitorObtenerPrimasGeneradas ::: {"ObtenerPrimasGeneradasResult":null}
+[INFO]  datos primas: {"r130":0,"r3160":0,"r60plus":0}
+[INFO]  datos para envio : {"resumen":{"ventaDia":0,"ventaMes":0,"ventaAnio":0,"saldoPXC":0},"ventaMes":{"presupuesto":0,"real":0,"anterior":0,"avance":0},"ventaAnio":{"presupuesto":0,"real":0,"anterior":0,"avance":0},"saldoPXC":{"unoATreinta":0,"treintaASesenta":0,"masDeSesenta":0,"saldoPXC":0},"convenciones":{"avancePlata":0,"avanceOro":0,"avancePlatino":0},"masterRewards":{"puntosTotales":0,"puntosPorVencer":0},"user":{"tipoEmpleado":"EMP","login":"true","oracleUser":"ACANAL","oraclePass":"H8O7DQJZQC","numeroEmpleado":"1080336"}}
+[INFO]  No esta instalado o no esta asociado
+[INFO]  monitor
+[WARN]  No se encontró el valor de la llave: configuracion_Button_btnSave
+[INFO]  lo que le mando[{"Id":"autorizaciones","Color":"#01C0D6","text":"Autorizaciones","image":"ico_menu_1.png"},{"Id":"desbloqueos","Color":"#6E2796","text":"Desbloqueos","image":"ico_menu_2.png"},{"Id":"consultas","Color":"#01C0D6","text":"Consultas","image":"ico_menu_4.png"},{"Id":"radiografia","Color":"#6E2796","text":"Radiografía","image":"ico_menu_5.png"},{"Id":"cotizador","Color":"#01C0D6","text":"Cotizador","image":"ico_menu_3.png"},{"Id":"monitor","Color":"#6E2796","text":"Monitor","image":"ico_menu_6.png"},{"Id":"valida","Color":"#01C0D6","text":"Valida","image":"ico_menu_7.png"},{"Id":"expres","Color":"#6E2796","text":"Expres","image":"ico_menu_8.png"},{"Id":"expediente","Color":"#6E2796","text":"Expediente","image":"ico_menu_9.png"},{"Id":"custom","Color":"#6E2796","text":"Herramientas","image":"ico_menu_10.png"}]
+[INFO]  la pila no  esta vacia
+[INFO]  Llamando a servicio JSON personalizacionGuardarColores
+[INFO]  {"aplicacion":10,"coloresElementos":[{"Id":"autorizaciones","Color":"#7ACA00","text":"Autorizaciones","image":"ico_menu_1.png"},{"Id":"desbloqueos","Color":"#6E2796","text":"Desbloqueos","image":"ico_menu_2.png"},{"Id":"cotizador","Color":"#7ACA00","text":"Cotizador","image":"ico_menu_3.png"},{"Id":"consultas","Color":"#6E2796","text":"Consultas","image":"ico_menu_4.png"},{"Id":"radiografia","Color":"#7ACA00","text":"Radiografia","image":"ico_menu_5.png"},{"Id":"monitor","Color":"#6E2796","text":"Monitor","image":"ico_menu_6.png"},{"Id":"valida","Color":"#7ACA00","text":"Valida","image":"ico_menu_7.png"},{"Id":"expres","Color":"#6E2796","text":"Express","image":"ico_menu_8.png"},{"Id":"expediente","Color":"#6E2796","text":"Expediente","image":"ico_menu_9.png"},{"Id":"custom","Color":"#6E2796","text":"Herramientas","image":"ico_menu_10.png"}],"usuarioAcceso":"ACANAL"}
+[INFO]  Error en personalizacionGuardarColores :: HTTP error
